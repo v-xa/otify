@@ -58,22 +58,22 @@ Otify notifications are styled with CSS animations for smooth appearance and dis
 
 ## Methods
 
-### `notify.init()`
+### `otify.init()`
 Ensures the notification container exists in the document. Called automatically.
 
-### `notify.show(message, options)`
+### `otify.show(message, options)`
 Displays a notification with custom options.
 
-### `notify.success(message, options)`
+### `otify.success(message, options)`
 Displays a success notification.
 
-### `notify.error(message, options)`
+### `otify.error(message, options)`
 Displays an error notification.
 
-### `notify.info(message, options)`
+### `otify.info(message, options)`
 Displays an info notification.
 
-### `notify.close(notificationElement)`
+### `otify.close(notificationElement)`
 Closes a specific notification element.
 
 ## Example Usage
